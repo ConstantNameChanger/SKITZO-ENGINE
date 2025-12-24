@@ -10,6 +10,10 @@ namespace SkitzoNG {
     namespace System {
         void SkitzoNG_Init();
 
+        namespace Log {
+            void PrintErr(const char* msg);
+        }
+
     }
 }
 
